@@ -15,7 +15,7 @@
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 360px;
   padding-left: 12px;
 }
@@ -128,8 +128,9 @@
 .image-project {
   height: 252px;
   background-image: url(../images/project\ placeholder.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .image-style {
   background: #fff;
   border-radius: 8px;
@@ -289,7 +290,6 @@ button:hover {
   flex-wrap: wrap;
   gap: 12px;
 }
-
 .about-buttons div {
   background: #fff;
   border-radius: 8px;
@@ -298,5 +298,22 @@ button:hover {
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
+  letter-spacing: 0.03em;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.project-buttons div {
+  background: rgb(209, 205, 205);
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
   letter-spacing: 0.03em;
 }
